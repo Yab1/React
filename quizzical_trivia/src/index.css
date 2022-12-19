@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@700&display=swap');
+
+::after,::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background: #F5F7FB;
+}
+input,textarea,button,select{
+    font: inherit;
+}
+.flex{
+    display: flex;
+}
+.App{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    background: #4D5B9E;
+    border-radius: 10px;
+    padding: 1em 3em;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #F5F7FB;
+    border: none;
+}
+.cover{
+    flex-direction: column;
+    gap: 1em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #293264;
+}
+.cover-title{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #293264;
+}
+p{
+    font-weight: 400;
+}
+.trivia-container{
+    flex-direction: column;
+    gap: 1em;
+}
+.trivia-question{
+    color: #293264;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.ans-btns{
+    justify-content: start;
+    gap: 1em;
+}
+.trivia-ans-btn{
+    background-color: #F5F7FB;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;
+    padding: .1em 2em;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #293264;
+}
+.trivia-ans-btn:active{
+    background-color: red;
+}
+hr{
+    margin-bottom: 1em;
+}
+.checker{
+    justify-content: center;
+}
+.score-details{
+    margin-top: 1em;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1rem;
+    color: #293264;
+}
+.play-again{
+    gap: 1em;
+}
